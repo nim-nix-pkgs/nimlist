@@ -11,6 +11,7 @@
   inputs.src-nimlist-v0_1_1.ref   = "refs/tags/v0.1.1";
   inputs.src-nimlist-v0_1_1.owner = "flenniken";
   inputs.src-nimlist-v0_1_1.repo  = "nimlist";
+  inputs.src-nimlist-v0_1_1.dir   = "";
   inputs.src-nimlist-v0_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

@@ -11,6 +11,7 @@
   inputs.src-nimlist-master.ref   = "refs/heads/master";
   inputs.src-nimlist-master.owner = "flenniken";
   inputs.src-nimlist-master.repo  = "nimlist";
+  inputs.src-nimlist-master.dir   = "";
   inputs.src-nimlist-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
